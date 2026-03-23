@@ -1,21 +1,47 @@
-# codes
-# Binary Tree Construction using Level Order (Java)
+# 🌳 Binary Tree Construction (Level Order) - Java
 
-## 📌 Problem Statement
-Build a Binary Tree using level-order input where `-1` represents a NULL node. Then perform **Inorder Traversal**.
+## 📌 Description
+This project builds a Binary Tree using level-order input and performs inorder traversal.
 
 ---
 
 ## 🛠️ Approach
 
-- Use a **Queue (BFS approach)** to construct the tree.
-- Insert elements level by level.
-- Skip `-1` values (treated as NULL).
-- Perform **Inorder Traversal (Left → Root → Right)**.
+- Use Queue (BFS)
+- Insert nodes level by level
+- Use -1 for NULL nodes
+- Perform inorder traversal (Left → Root → Right)
 
 ---
 
-## 💻 Code
+## 📥 Input
+7
+1 2 3 -1 4 5 6
 
-```java
-// (paste your code here)
+---
+
+## 🌳 Tree
+
+        1
+       / \
+      2   3
+       \  / \
+        4 5  6
+
+---
+
+## 📤 Output
+2 4 1 5 3 6
+
+---
+
+## 💡 Concepts
+- Binary Tree
+- BFS (Queue)
+- Recursion
+
+---
+
+## 🚀 Author
+Vyshnavi
+B.Tech AIML Student
